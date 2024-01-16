@@ -18,8 +18,8 @@ public class UserManagementApp {
             System.out.println("-------------------------------------------------------------------------------------------------");
             System.out.println("Man Page: ");
             System.out.println("-------------------------------------------------------------------------------------------------");
-            System.out.println("create -n \"username\" -p \"phone\" -e \"email\" -pwd \"password\"");
-            System.out.println("update -i <userId> -n \"newUsername\" -p \"newPhone\" -e \"newEmail\" -pwd \"newPassword\"");
+            System.out.println("create -n username -p phone -e email -pwd password");
+            System.out.println("update -i <userId> -n newUsername -p newPhone -e newEmail -pwd newPassword");
             System.out.println("read -i <userId>/read -n <username>/read --all");
             System.out.println("delete -i <userId>");
             System.out.println("exit");
